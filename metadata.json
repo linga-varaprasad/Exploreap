@@ -1,0 +1,7 @@
+{
+  "name": "ExploreAP",
+  "description": "An AI-powered travel app to discover the hidden gems of Andhra Pradesh.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

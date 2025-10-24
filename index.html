@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" style="color-scheme: light;">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ExploreAP</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Custom Tailwind Config -->
+  <style type="text/tailwindcss">
+    @layer theme {
+      extend {
+        colors: {
+          'primary': '#2D7D7D', // Deep Teal
+          'secondary': '#FF8A47', // Warm Orange
+          'accent': '#FFD700', // Golden Yellow
+          'base-100': '#FFFFFF',
+          'base-200': '#F0F7F7', // Very Light Teal
+          'base-300': '#D9E9E9', // Light Teal
+          'base-content': '#1F2937', // Dark gray for text
+          'base-content-secondary': '#6B7280', // Medium gray for secondary text
+          'secondary-focus': '#F97316', // Slightly darker orange for hover/focus
+        },
+        fontFamily: {
+          'sans': ['Inter', 'sans-serif'],
+          'display': ['Poppins', 'sans-serif'],
+        }
+      }
+    }
+  </style>
+
+  <!-- Import Map -->
+  <script type="importmap">
+  {
+    "imports": {
+      "react": "https://aistudiocdn.com/react@^19.2.0",
+      "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+      "react/": "https://aistudiocdn.com/react@^19.2.0/",
+      "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0"
+    }
+  }
+  </script>
+</head>
+<body class="bg-base-100">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
