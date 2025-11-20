@@ -66,7 +66,7 @@ Whether you’re a student planning a weekend ride, a family looking for peacefu
 
 ---
 
-## 🌀 Animated Project Identity
+## 🌀 Project Identity
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&color=FF8A47&size=22&center=true&vCenter=true&width=500&lines=Explore.+Experience.+Evolve.;Find+Your+Next+Adventure.;Hidden+Gems+Are+One+Tap+Away.;Built+For+Travellers+by+Travellers." />
